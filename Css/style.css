@@ -43,3 +43,15 @@ a:hover{
   color: var(--card-body-color);
   background:white;
 }
+.card-body{
+  padding: 0;
+}
+.card-body p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 5px;
+}
